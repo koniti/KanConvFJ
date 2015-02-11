@@ -1,4 +1,5 @@
 # coding: utf-8
+#2015-02-11
 $KCODE = 'u'
 
 class KanConvFJ
@@ -1052,6 +1053,7 @@ def initTable()
 災	灾	災
 烏	乌	烏
 烴	烃	烴
+无	无	無
 無	无	無
 焰	焔	焔
 煉	炼	煉
