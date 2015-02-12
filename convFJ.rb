@@ -1,6 +1,6 @@
-#!/usr/bin/ruby -Ku
+﻿#!/usr/bin/ruby -Ku
 # coding: utf-8
-#2015-02-11
+#2015-02-12
 
 require "KanConvFJ.rb"
 require 'optparse'

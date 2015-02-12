@@ -1,11 +1,11 @@
-# coding: utf-8
-#2015-02-11
+﻿# coding: utf-8
+#2015-02-12
 $KCODE = 'u'
 
 class KanConvFJ
 VERSION = '0.0.0'
 
-# $code[0]繋體Fantizi  $code[1]簡體jiantizi(Simple chinese)  $code[2]日本Japanese
+# $code[0]繁體Fantizi  $code[1]簡體jiantizi(Simple chinese)  $code[2]日本Japanese
 @list = Array.new() ; # see below
 # @code = [ [], [], [] ]
 # @code = Array.new(3){ Array.new }
@@ -29,16 +29,16 @@ end
 def _conv_kanji(flag, str)
    case flag
         when 1 then
-          # [0]繋體->[2]日本
+          # [0]繁體->[2]日本
           from=0; to=2;
         when 2 then
-          # [2]日本->[0]繋體
+          # [2]日本->[0]繁體
           from=2; to=0;
         when 3 then
-          # [0]繋體->[1]簡體
+          # [0]繁體->[1]簡體
           from=0; to=1;
         when 4 then
-          # [1]簡體->[0]繋體
+          # [1]簡體->[0]繁體
           from=1; to=0;
         when 5 then
           # [2]日本->[1]簡體
@@ -60,7 +60,7 @@ def _conv_kanji(flag, str)
 # $str =~ s/(.)/$cr->{j2c}{$1} ? $cr->{j2c}{$1} : $1/ge; doesn't work
 end
 
-# 1.繋體fantizi->日本japanese
+# 1.繁體fantizi->日本japanese
 def f2j(str)
     return self._conv_kanji(1,str);
 end
@@ -95,7 +95,7 @@ def initTable()
 # japanese has less chars than Fantizi. if japanese doesn't have a char, copy Fantizi glyph to japanese.
 # if there is same glyph, choise first one.
 #  fan jian japan
-#  繋體 簡體 日本
+#  繁體 簡體 日本
 @list = %w(
 丟	丢	丟
 並	并	並
