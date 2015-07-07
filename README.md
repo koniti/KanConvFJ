@@ -34,3 +34,6 @@ Options:
 	
 	-j : output is Japanese(日本 utf-8) default
 	
+
+License: GPL2
+https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
