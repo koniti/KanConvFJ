@@ -1,4 +1,4 @@
-﻿# coding: utf-8
+# coding: utf-8
 #2015-02-12
 $KCODE = 'u'
 

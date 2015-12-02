@@ -1,4 +1,4 @@
-﻿#!/usr/bin/ruby -Ku
+#!/usr/bin/ruby -Ku
 # coding: utf-8
 #2015-02-12
 

@@ -1,4 +1,4 @@
-﻿# KanConvFJ
+# KanConvFJ
 utf-8 Kanji(chinese character) code Coverter.
 
 KanConvFJ is ruby script to convert utf-8 code of 'Chinese characters(Kanji漢字)' {from,into} {Fantizi繁體字,Jiantizi簡体字,Japanese日本新体字}.
